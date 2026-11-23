@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Daily Basket Selenium suite">
+  <test name="Daily Basket UI functional, validation, and responsive tests">
+    <classes>
+      <class name="com.dailybasket.tests.BasicStorefrontTest" />
+      <class name="com.dailybasket.tests.CartTest" />
+      <class name="com.dailybasket.tests.UIInteractionTest" />
+      <class name="com.dailybasket.tests.VisualAndPerformanceTest" />
+    </classes>
+  </test>
+</suite>
